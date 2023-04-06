@@ -1,8 +1,9 @@
-import data from "./functions";
+import data from "./Helpers";
 
 describe('Demo Blaze Testing', () => {
   it('Test register,login and order functionalities', () => {
 
+    //register user
     data.registerUser()
 
     //Login with already registered user account with correct credentials
